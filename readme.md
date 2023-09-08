@@ -8,15 +8,15 @@
 
 ## About <a name = "about"></a>
 
-Assignment:  dump the data from excel sheets and csv file from database and used Python language to create this scripts and used pandas lib.
+Assignment:  Dump the data from Excel sheets and CSV files to  a database and use Python to create these scripts and use pandas lib.
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See 
+These instructions will get you a copy of the project up and running on your local machine for development and testing. See 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+What things do you need to install the software and how to install them?
 
 ```
 Python
@@ -26,20 +26,20 @@ Openpyxl
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+A step-by-step series of examples that tell you how to get a development environment running.
 
 Install the requirements.txt file for dependencies. run the below command: 
 ```
 create virtual env : virtualenv venv
 
 activate the env : 
-for macos and linux : source venv/bin/activate
-for windows :  venv/Scripts/activate
+For macOS and Linux: source venv/bin/activate
+For Windows:  venv/Scripts/activate
 
 pip3 install -r requirements.txt
 ```
 ## Further Steps
-Run the driver file : In this file there is two files one is csv and another is excel. Uncomment one file and run the driver.py data will be stored in side the sqlite database.
+Run the driver file: In this file, there are two files one is CSV and another is Excel. Uncomment one file and run the driver.py data will be stored inside the SQLite database.
 
 ### Command to run the driver.py file
 
@@ -47,4 +47,4 @@ Run the driver file : In this file there is two files one is csv and another is 
 python3 driver.py
 ```
 
-Check the data is stored or not : open the check_data.py file , there is flag and its values is "all" , "limit" (by default the limit is 1 you can change it), "count", "table_data" (to check which table is created). And in tablename there is all tables mentioned you have to pass the tablename using indexing along with cursor , flag and limit. you will get the records in console
+Check whether the data is stored or not: open the check_data.py file, there is  a flag variable and its values are "all", "limit" (by default the limit is 1 you can change it), "count", "table_data" (to check which table is created). And in tablename there is all tables mentioned you have to pass the table name using indexing along with cursor, flag and limit. you will get the records in the console
